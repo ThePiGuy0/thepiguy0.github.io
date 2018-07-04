@@ -1,0 +1,24 @@
+.nav {
+	list-style: none;
+	text-align: center;
+}
+.nav li {
+	display: inline;
+	padding: 5px;
+}
+.nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background-color: #a8cbe0;
+	border-radius: 10px;
+	padding: 20px;
+}
+.nav a:visited {
+	color: white;
+	background-color: #a8cbe0;
+}
+.nav a:hover {
+	color: white;
+	background-color: #85a0af;
+}
