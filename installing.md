@@ -9,7 +9,7 @@ description: Tutorials on how to install and build android
 ## Installing a custom rom requires these basic steps (more detailed steps below)
 1. Unlock the bootloader - in the majority of cases, this will wipe all data
 2. Install a custom recovery - the recommended variant for all devices is now TWRP
-3. [Optional] Make a full twrp backup to allow you to easily return to stock if needed
+3. [Optional] Make a full twrp backup to allow you to easily return to stock if needed - I would also recommend moving this backup off the phone (e.g. to another computer) as otherwise if the internal storage becomes corrupted, you will lose your backup at exactly the point you need it
 4. Wipe System, Data, Cache and Dalvik in TWRP to remove the previous OS - internal storage contains files such as music, photos etc. These will NOT be backed up during a TWRP backup, so if you wipe this partition ensure you have these files backed up manually
 5. Flash the ROM zip of your choice - ensure it is for the exact model you have as even devices with similar model names can have very different hardware.
 If you experience "Error 7" whilst using an Oreo rom, ensure your TWRP is the latest version
