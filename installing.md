@@ -71,6 +71,15 @@ I only know about the G4 (feel free to put a pull request on my [website repo](h
 
 H810, H812, non-european H815, vs986 - Use the [UsU tool](https://forum.xda-developers.com/g4/general/unlock-unlock-lg-g4-device-usu-t3760451) from steadfasterX on XDA
 
+### Install TWRP
+The next step is to install TWRP to allow us to flash a custom rom
+
+1. If you are not already in the bootloader mode, boot into it (from the OS, run ```adb reboot bootloader```)
+2. Download the appropriate TWRP image from twrp.me
+3. Using CMD, enter the directory your TWRP image is in
+4. Run ```fastboot flash recovery <twrp image name>.img```
+5. Do NOT reboot into your OS yet
+
 ### IMPORTANT - Make the TWRP install permanent
 For most officially unlocked devices (hacks like the UsU may be different), we need to boot directly into twrp first to allow it to patch our current rom.
 
